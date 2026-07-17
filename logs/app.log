@@ -1,0 +1,530 @@
+2026-07-17 02:05:16 [INFO] Snapshot 1 taken. Total1: 8361727, Idle1: 8329461
+2026-07-17 02:05:17 [INFO] Snapshot 2 taken. Total2: 8362518, Idle2: 8330242
+2026-07-17 02:05:17 [INFO] CPU Usage calculated successfully: 1%
+2026-07-17 02:05:17 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 02:05:17 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 02:05:17 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 02:11:16 [INFO] Snapshot 1 taken. Total1: 8652655, Idle1: 8619379
+2026-07-17 02:11:17 [INFO] Snapshot 2 taken. Total2: 8653451, Idle2: 8620159
+2026-07-17 02:11:17 [INFO] CPU Usage calculated successfully: 2%
+2026-07-17 02:11:17 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 02:11:17 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 02:11:18 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 02:11:21 [INFO] Snapshot 1 taken. Total1: 8656151, Idle1: 8622806
+2026-07-17 02:11:40 [INFO] Snapshot 2 taken. Total2: 8656966, Idle2: 8623618
+2026-07-17 02:11:22 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 02:11:22 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 02:11:22 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 02:11:22 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 02:12:07 [WARN] Config file missing at /home/mazen/linux_monitoring_project/src/dashboard/../../config/config.conf. Using safe defaults.
+2026-07-17 02:12:07 [INFO] Snapshot 1 taken. Total1: 8693208, Idle1: 8659663
+2026-07-17 02:12:08 [INFO] Snapshot 2 taken. Total2: 8694025, Idle2: 8660477
+2026-07-17 02:12:08 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 02:12:08 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 02:12:08 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 02:12:09 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 02:12:23 [INFO] Snapshot 1 taken. Total1: 8706589, Idle1: 8672944
+2026-07-17 02:12:24 [INFO] Snapshot 2 taken. Total2: 8707398, Idle2: 8673752
+2026-07-17 02:12:24 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 02:12:24 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 02:12:24 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 02:12:25 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 02:12:28 [INFO] Snapshot 1 taken. Total1: 8710084, Idle1: 8676378
+2026-07-17 02:12:29 [INFO] Snapshot 2 taken. Total2: 8710897, Idle2: 8677189
+2026-07-17 02:12:29 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 02:12:29 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 02:12:29 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 02:12:29 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 02:24:15 [INFO] Snapshot 1 taken. Total1: 9260654, Idle1: 9225048
+2026-07-17 02:24:16 [INFO] Snapshot 2 taken. Total2: 9261467, Idle2: 9225859
+2026-07-17 02:24:16 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 02:24:17 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 02:24:17 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 02:24:17 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:33:39 [INFO] Snapshot 1 taken. Total1: 11802693, Idle1: 11757281
+2026-07-17 15:33:40 [INFO] Snapshot 2 taken. Total2: 11803507, Idle2: 11758092
+2026-07-17 15:33:40 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:33:40 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:33:40 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:33:40 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:33:43 [INFO] Snapshot 1 taken. Total1: 11806330, Idle1: 11760847
+2026-07-17 15:33:44 [INFO] Snapshot 2 taken. Total2: 11807153, Idle2: 11761667
+2026-07-17 15:33:44 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:33:44 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:33:44 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:33:45 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:33:48 [INFO] Snapshot 1 taken. Total1: 11809985, Idle1: 11764427
+2026-07-17 15:33:30 [INFO] Snapshot 2 taken. Total2: 11810803, Idle2: 11765229
+2026-07-17 15:33:30 [INFO] CPU Usage calculated successfully: 1%
+2026-07-17 15:33:30 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:33:30 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:33:30 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:33:33 [INFO] Snapshot 1 taken. Total1: 11813631, Idle1: 11767985
+2026-07-17 15:33:53 [INFO] Snapshot 2 taken. Total2: 11814461, Idle2: 11768807
+2026-07-17 15:33:53 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:33:34 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:33:34 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:33:35 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:33:38 [INFO] Snapshot 1 taken. Total1: 11817311, Idle1: 11771553
+2026-07-17 15:33:39 [INFO] Snapshot 2 taken. Total2: 11818130, Idle2: 11772368
+2026-07-17 15:33:39 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:33:39 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:33:39 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:33:39 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:33:42 [INFO] Snapshot 1 taken. Total1: 11820736, Idle1: 11774927
+2026-07-17 15:33:43 [INFO] Snapshot 2 taken. Total2: 11821561, Idle2: 11775747
+2026-07-17 15:33:43 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:33:43 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:33:43 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:33:44 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:33:47 [INFO] Snapshot 1 taken. Total1: 11824400, Idle1: 11778497
+2026-07-17 15:33:48 [INFO] Snapshot 2 taken. Total2: 11825225, Idle2: 11779317
+2026-07-17 15:33:48 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:33:48 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:33:48 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:33:48 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:33:51 [INFO] Snapshot 1 taken. Total1: 11828023, Idle1: 11782034
+2026-07-17 15:33:52 [INFO] Snapshot 2 taken. Total2: 11828848, Idle2: 11782854
+2026-07-17 15:33:52 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:33:52 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:33:53 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:33:53 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:33:56 [INFO] Snapshot 1 taken. Total1: 11831657, Idle1: 11785580
+2026-07-17 15:33:57 [INFO] Snapshot 2 taken. Total2: 11832483, Idle2: 11786401
+2026-07-17 15:33:57 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:33:57 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:33:57 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:33:57 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:34:01 [INFO] Snapshot 1 taken. Total1: 11835307, Idle1: 11789138
+2026-07-17 15:34:02 [INFO] Snapshot 2 taken. Total2: 11836145, Idle2: 11789968
+2026-07-17 15:34:02 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:34:02 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:34:02 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:34:02 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:35:45 [INFO] Snapshot 1 taken. Total1: 11918893, Idle1: 11872330
+2026-07-17 15:35:46 [INFO] Snapshot 2 taken. Total2: 11919705, Idle2: 11873140
+2026-07-17 15:35:46 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:35:47 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:35:47 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:35:47 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:36:09 [INFO] Snapshot 1 taken. Total1: 11922507, Idle1: 11875875
+2026-07-17 15:36:10 [INFO] Snapshot 2 taken. Total2: 11923341, Idle2: 11876703
+2026-07-17 15:36:10 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:36:10 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:36:10 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:36:11 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:36:14 [INFO] Snapshot 1 taken. Total1: 11926243, Idle1: 11879518
+2026-07-17 15:36:15 [INFO] Snapshot 2 taken. Total2: 11927068, Idle2: 11880338
+2026-07-17 15:36:15 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:36:15 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:36:15 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:36:15 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:36:18 [INFO] Snapshot 1 taken. Total1: 11929930, Idle1: 11883123
+2026-07-17 15:36:19 [INFO] Snapshot 2 taken. Total2: 11930745, Idle2: 11883933
+2026-07-17 15:36:19 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:36:19 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:36:20 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:36:20 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:38:05 [INFO] Snapshot 1 taken. Total1: 12030228, Idle1: 11983114
+2026-07-17 15:38:06 [INFO] Snapshot 2 taken. Total2: 12031039, Idle2: 11983920
+2026-07-17 15:38:06 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:38:06 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:38:06 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:38:06 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:38:09 [INFO] Snapshot 1 taken. Total1: 12033878, Idle1: 11986683
+2026-07-17 15:38:30 [INFO] Snapshot 2 taken. Total2: 12034704, Idle2: 11987503
+2026-07-17 15:38:30 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:38:30 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:38:30 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:38:30 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:38:33 [INFO] Snapshot 1 taken. Total1: 12037537, Idle1: 11990267
+2026-07-17 15:38:34 [INFO] Snapshot 2 taken. Total2: 12038363, Idle2: 11991088
+2026-07-17 15:38:34 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:38:34 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:38:34 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:38:35 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:38:38 [INFO] Snapshot 1 taken. Total1: 12041175, Idle1: 11993830
+2026-07-17 15:38:39 [INFO] Snapshot 2 taken. Total2: 12042000, Idle2: 11994650
+2026-07-17 15:38:39 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:38:39 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:38:39 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:38:39 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:38:42 [INFO] Snapshot 1 taken. Total1: 12044824, Idle1: 11997400
+2026-07-17 15:38:43 [INFO] Snapshot 2 taken. Total2: 12045643, Idle2: 11998216
+2026-07-17 15:38:43 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:38:43 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:38:44 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:38:44 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:38:28 [INFO] Snapshot 1 taken. Total1: 12048466, Idle1: 12000957
+2026-07-17 15:38:29 [INFO] Snapshot 2 taken. Total2: 12049288, Idle2: 12001775
+2026-07-17 15:38:29 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:38:29 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:38:29 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:38:29 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:38:32 [INFO] Snapshot 1 taken. Total1: 12051854, Idle1: 12004301
+2026-07-17 15:38:33 [INFO] Snapshot 2 taken. Total2: 12052681, Idle2: 12005123
+2026-07-17 15:38:33 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:38:33 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:38:33 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:38:34 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:38:37 [INFO] Snapshot 1 taken. Total1: 12055530, Idle1: 12007880
+2026-07-17 15:38:38 [INFO] Snapshot 2 taken. Total2: 12056356, Idle2: 12008701
+2026-07-17 15:38:38 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:38:38 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:38:38 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:38:38 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 15:38:41 [INFO] Snapshot 1 taken. Total1: 12059015, Idle1: 12011303
+2026-07-17 15:38:42 [INFO] Snapshot 2 taken. Total2: 12059841, Idle2: 12012124
+2026-07-17 15:38:42 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 15:38:42 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 15:38:42 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 15:38:42 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:26:55 [INFO] Snapshot 1 taken. Total1: 13731872, Idle1: 13679627
+2026-07-17 16:26:56 [INFO] Snapshot 2 taken. Total2: 13732686, Idle2: 13680438
+2026-07-17 16:26:56 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:26:56 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:26:56 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:26:56 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:18 [INFO] Snapshot 1 taken. Total1: 13735540, Idle1: 13683218
+2026-07-17 16:27:00 [INFO] Snapshot 2 taken. Total2: 13736351, Idle2: 13684014
+2026-07-17 16:27:00 [INFO] CPU Usage calculated successfully: 1%
+2026-07-17 16:27:00 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:01 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:27:01 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:04 [INFO] Snapshot 1 taken. Total1: 13738922, Idle1: 13686559
+2026-07-17 16:27:05 [INFO] Snapshot 2 taken. Total2: 13739730, Idle2: 13687349
+2026-07-17 16:27:05 [INFO] CPU Usage calculated successfully: 2%
+2026-07-17 16:27:05 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:05 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:27:05 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:08 [INFO] Snapshot 1 taken. Total1: 13742542, Idle1: 13690090
+2026-07-17 16:27:09 [INFO] Snapshot 2 taken. Total2: 13743352, Idle2: 13690898
+2026-07-17 16:27:09 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:27:09 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:28 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:27:28 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:12 [INFO] Snapshot 1 taken. Total1: 13745888, Idle1: 13693398
+2026-07-17 16:27:13 [INFO] Snapshot 2 taken. Total2: 13746701, Idle2: 13694207
+2026-07-17 16:27:13 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:27:14 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:14 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:27:14 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:17 [INFO] Snapshot 1 taken. Total1: 13749530, Idle1: 13696952
+2026-07-17 16:27:18 [INFO] Snapshot 2 taken. Total2: 13750356, Idle2: 13697774
+2026-07-17 16:27:18 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:27:18 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:18 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:27:18 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:22 [INFO] Snapshot 1 taken. Total1: 13753185, Idle1: 13700516
+2026-07-17 16:27:23 [INFO] Snapshot 2 taken. Total2: 13754011, Idle2: 13701335
+2026-07-17 16:27:23 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:27:23 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:23 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:27:23 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:26 [INFO] Snapshot 1 taken. Total1: 13756847, Idle1: 13704080
+2026-07-17 16:27:27 [INFO] Snapshot 2 taken. Total2: 13757673, Idle2: 13704901
+2026-07-17 16:27:27 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:27:27 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:27 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:27:28 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:31 [INFO] Snapshot 1 taken. Total1: 13760414, Idle1: 13707574
+2026-07-17 16:27:32 [INFO] Snapshot 2 taken. Total2: 13761233, Idle2: 13708390
+2026-07-17 16:27:32 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:27:32 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:32 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:27:32 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:35 [INFO] Snapshot 1 taken. Total1: 13763885, Idle1: 13710991
+2026-07-17 16:27:36 [INFO] Snapshot 2 taken. Total2: 13764710, Idle2: 13711812
+2026-07-17 16:27:36 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:27:36 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:36 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:27:36 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:58 [INFO] Snapshot 1 taken. Total1: 13767391, Idle1: 13714443
+2026-07-17 16:27:40 [INFO] Snapshot 2 taken. Total2: 13768191, Idle2: 13715227
+2026-07-17 16:27:40 [INFO] CPU Usage calculated successfully: 2%
+2026-07-17 16:27:40 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:41 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:27:41 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:44 [INFO] Snapshot 1 taken. Total1: 13771021, Idle1: 13717986
+2026-07-17 16:27:45 [INFO] Snapshot 2 taken. Total2: 13771827, Idle2: 13718778
+2026-07-17 16:27:45 [INFO] CPU Usage calculated successfully: 1%
+2026-07-17 16:27:45 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:45 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:27:45 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:48 [INFO] Snapshot 1 taken. Total1: 13774629, Idle1: 13721516
+2026-07-17 16:28:08 [INFO] Snapshot 2 taken. Total2: 13775446, Idle2: 13722329
+2026-07-17 16:28:08 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:27:50 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:50 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:27:50 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:53 [INFO] Snapshot 1 taken. Total1: 13778257, Idle1: 13725055
+2026-07-17 16:27:54 [INFO] Snapshot 2 taken. Total2: 13779080, Idle2: 13725875
+2026-07-17 16:27:54 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:27:54 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:54 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:13 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:27:58 [INFO] Snapshot 1 taken. Total1: 13781876, Idle1: 13728591
+2026-07-17 16:27:59 [INFO] Snapshot 2 taken. Total2: 13782700, Idle2: 13729411
+2026-07-17 16:27:59 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:27:59 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:27:59 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:27:59 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:28:02 [INFO] Snapshot 1 taken. Total1: 13785492, Idle1: 13732124
+2026-07-17 16:28:03 [INFO] Snapshot 2 taken. Total2: 13786317, Idle2: 13732944
+2026-07-17 16:28:03 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:28:03 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:28:03 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:04 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:28:07 [INFO] Snapshot 1 taken. Total1: 13789131, Idle1: 13735674
+2026-07-17 16:28:08 [INFO] Snapshot 2 taken. Total2: 13789955, Idle2: 13736494
+2026-07-17 16:28:08 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:28:08 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:28:08 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:08 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:28:11 [INFO] Snapshot 1 taken. Total1: 13792703, Idle1: 13739166
+2026-07-17 16:28:12 [INFO] Snapshot 2 taken. Total2: 13793515, Idle2: 13739977
+2026-07-17 16:28:12 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:28:12 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:28:12 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:13 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:28:16 [INFO] Snapshot 1 taken. Total1: 13796201, Idle1: 13742595
+2026-07-17 16:28:17 [INFO] Snapshot 2 taken. Total2: 13797030, Idle2: 13743419
+2026-07-17 16:28:17 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:28:17 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:28:17 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:17 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:28:20 [INFO] Snapshot 1 taken. Total1: 13799821, Idle1: 13746133
+2026-07-17 16:28:21 [INFO] Snapshot 2 taken. Total2: 13800636, Idle2: 13746945
+2026-07-17 16:28:21 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:28:21 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:28:21 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:21 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:28:43 [INFO] Snapshot 1 taken. Total1: 13803241, Idle1: 13749515
+2026-07-17 16:28:26 [INFO] Snapshot 2 taken. Total2: 13804048, Idle2: 13750308
+2026-07-17 16:28:26 [INFO] CPU Usage calculated successfully: 1%
+2026-07-17 16:28:26 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:28:26 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:26 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:28:29 [INFO] Snapshot 1 taken. Total1: 13806871, Idle1: 13753059
+2026-07-17 16:28:30 [INFO] Snapshot 2 taken. Total2: 13807683, Idle2: 13753858
+2026-07-17 16:28:30 [INFO] CPU Usage calculated successfully: 1%
+2026-07-17 16:28:30 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:28:30 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:30 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:28:34 [INFO] Snapshot 1 taken. Total1: 13810544, Idle1: 13756641
+2026-07-17 16:28:35 [INFO] Snapshot 2 taken. Total2: 13811374, Idle2: 13757464
+2026-07-17 16:28:35 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:28:35 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:28:35 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:35 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:28:38 [INFO] Snapshot 1 taken. Total1: 13814218, Idle1: 13760217
+2026-07-17 16:28:39 [INFO] Snapshot 2 taken. Total2: 13815044, Idle2: 13761038
+2026-07-17 16:28:39 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:28:39 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:28:58 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:40 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:28:43 [INFO] Snapshot 1 taken. Total1: 13817875, Idle1: 13763782
+2026-07-17 16:28:44 [INFO] Snapshot 2 taken. Total2: 13818706, Idle2: 13764606
+2026-07-17 16:28:44 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:28:44 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:28:44 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:44 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:28:47 [INFO] Snapshot 1 taken. Total1: 13821509, Idle1: 13767327
+2026-07-17 16:28:48 [INFO] Snapshot 2 taken. Total2: 13822334, Idle2: 13768146
+2026-07-17 16:28:48 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:28:49 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:28:49 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:49 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:28:52 [INFO] Snapshot 1 taken. Total1: 13825144, Idle1: 13770872
+2026-07-17 16:28:53 [INFO] Snapshot 2 taken. Total2: 13825970, Idle2: 13771693
+2026-07-17 16:28:53 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:28:53 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:28:53 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:53 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:28:57 [INFO] Snapshot 1 taken. Total1: 13828783, Idle1: 13774423
+2026-07-17 16:28:58 [INFO] Snapshot 2 taken. Total2: 13829609, Idle2: 13775244
+2026-07-17 16:28:58 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:28:58 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:28:58 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:28:58 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:29:01 [INFO] Snapshot 1 taken. Total1: 13832423, Idle1: 13777972
+2026-07-17 16:29:02 [INFO] Snapshot 2 taken. Total2: 13833246, Idle2: 13778792
+2026-07-17 16:29:02 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:29:02 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:29:02 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:29:03 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:29:06 [INFO] Snapshot 1 taken. Total1: 13836041, Idle1: 13781511
+2026-07-17 16:29:07 [INFO] Snapshot 2 taken. Total2: 13836866, Idle2: 13782331
+2026-07-17 16:29:07 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:29:07 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:29:07 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:29:07 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:29:10 [INFO] Snapshot 1 taken. Total1: 13839705, Idle1: 13785081
+2026-07-17 16:29:11 [INFO] Snapshot 2 taken. Total2: 13840531, Idle2: 13785902
+2026-07-17 16:29:11 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:29:11 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:29:11 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:29:12 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:29:33 [INFO] Snapshot 1 taken. Total1: 13843218, Idle1: 13788537
+2026-07-17 16:29:16 [INFO] Snapshot 2 taken. Total2: 13844032, Idle2: 13789333
+2026-07-17 16:29:16 [INFO] CPU Usage calculated successfully: 2%
+2026-07-17 16:29:16 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:29:16 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:29:16 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:29:19 [INFO] Snapshot 1 taken. Total1: 13846849, Idle1: 13792081
+2026-07-17 16:29:20 [INFO] Snapshot 2 taken. Total2: 13847662, Idle2: 13792877
+2026-07-17 16:29:20 [INFO] CPU Usage calculated successfully: 2%
+2026-07-17 16:29:20 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:29:20 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:29:21 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:29:24 [INFO] Snapshot 1 taken. Total1: 13850499, Idle1: 13795636
+2026-07-17 16:29:25 [INFO] Snapshot 2 taken. Total2: 13851315, Idle2: 13796440
+2026-07-17 16:29:25 [INFO] CPU Usage calculated successfully: 1%
+2026-07-17 16:29:25 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:29:25 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:29:25 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:29:28 [INFO] Snapshot 1 taken. Total1: 13853938, Idle1: 13799022
+2026-07-17 16:29:49 [INFO] Snapshot 1 taken. Total1: 13855614, Idle1: 13800685
+2026-07-17 16:29:50 [INFO] Snapshot 2 taken. Total2: 13856426, Idle2: 13801495
+2026-07-17 16:29:50 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:29:50 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:29:50 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:29:50 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:29:53 [INFO] Snapshot 1 taken. Total1: 13859187, Idle1: 13804193
+2026-07-17 16:29:54 [INFO] Snapshot 2 taken. Total2: 13860011, Idle2: 13805013
+2026-07-17 16:29:54 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:29:55 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:29:55 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:29:55 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:29:58 [INFO] Snapshot 1 taken. Total1: 13862802, Idle1: 13807740
+2026-07-17 16:29:59 [INFO] Snapshot 2 taken. Total2: 13863618, Idle2: 13808553
+2026-07-17 16:29:59 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:29:59 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:29:59 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:29:59 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:02 [INFO] Snapshot 1 taken. Total1: 13866167, Idle1: 13811075
+2026-07-17 16:30:03 [INFO] Snapshot 2 taken. Total2: 13866977, Idle2: 13811883
+2026-07-17 16:30:03 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:30:03 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:03 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:03 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:29:48 [INFO] Snapshot 1 taken. Total1: 13869559, Idle1: 13814428
+2026-07-17 16:29:49 [INFO] Snapshot 2 taken. Total2: 13870392, Idle2: 13815254
+2026-07-17 16:29:49 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:29:49 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:29:49 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:29:49 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:11 [INFO] Snapshot 1 taken. Total1: 13873226, Idle1: 13817977
+2026-07-17 16:30:12 [INFO] Snapshot 2 taken. Total2: 13874033, Idle2: 13818741
+2026-07-17 16:30:12 [INFO] CPU Usage calculated successfully: 5%
+2026-07-17 16:30:12 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:12 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:13 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:16 [INFO] Snapshot 1 taken. Total1: 13876896, Idle1: 13821532
+2026-07-17 16:30:17 [INFO] Snapshot 2 taken. Total2: 13877721, Idle2: 13822354
+2026-07-17 16:30:17 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:30:17 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:17 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:17 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:20 [INFO] Snapshot 1 taken. Total1: 13880478, Idle1: 13825051
+2026-07-17 16:30:21 [INFO] Snapshot 2 taken. Total2: 13881288, Idle2: 13825858
+2026-07-17 16:30:21 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:30:21 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:21 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:21 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:24 [INFO] Snapshot 1 taken. Total1: 13883877, Idle1: 13828413
+2026-07-17 16:30:25 [INFO] Snapshot 2 taken. Total2: 13884704, Idle2: 13829236
+2026-07-17 16:30:25 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:30:26 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:26 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:26 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:29 [INFO] Snapshot 1 taken. Total1: 13887526, Idle1: 13831990
+2026-07-17 16:30:30 [INFO] Snapshot 2 taken. Total2: 13888351, Idle2: 13832810
+2026-07-17 16:30:30 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:30:30 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:30 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:30 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:33 [INFO] Snapshot 1 taken. Total1: 13891073, Idle1: 13835477
+2026-07-17 16:30:34 [INFO] Snapshot 2 taken. Total2: 13891885, Idle2: 13836285
+2026-07-17 16:30:34 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:30:34 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:35 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:35 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:38 [INFO] Snapshot 1 taken. Total1: 13894464, Idle1: 13838790
+2026-07-17 16:30:39 [INFO] Snapshot 2 taken. Total2: 13895272, Idle2: 13839596
+2026-07-17 16:30:39 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:30:39 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:39 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:39 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:42 [INFO] Snapshot 1 taken. Total1: 13897819, Idle1: 13842114
+2026-07-17 16:30:43 [INFO] Snapshot 2 taken. Total2: 13898632, Idle2: 13842924
+2026-07-17 16:30:43 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:30:43 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:43 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:43 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:27 [INFO] Snapshot 1 taken. Total1: 13901190, Idle1: 13845437
+2026-07-17 16:30:28 [INFO] Snapshot 2 taken. Total2: 13902000, Idle2: 13846244
+2026-07-17 16:30:28 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:30:28 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:29 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:29 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:32 [INFO] Snapshot 1 taken. Total1: 13904592, Idle1: 13848784
+2026-07-17 16:30:33 [INFO] Snapshot 2 taken. Total2: 13905409, Idle2: 13849597
+2026-07-17 16:30:33 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:30:33 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:33 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:33 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:55 [INFO] Snapshot 1 taken. Total1: 13908217, Idle1: 13852334
+2026-07-17 16:30:56 [INFO] Snapshot 2 taken. Total2: 13909034, Idle2: 13853148
+2026-07-17 16:30:56 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:30:56 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:56 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:56 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:59 [INFO] Snapshot 1 taken. Total1: 13911624, Idle1: 13855707
+2026-07-17 16:31:00 [INFO] Snapshot 2 taken. Total2: 13912450, Idle2: 13856528
+2026-07-17 16:31:00 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:31:00 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:31:00 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:31:01 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:31:04 [INFO] Snapshot 1 taken. Total1: 13915318, Idle1: 13859317
+2026-07-17 16:31:05 [INFO] Snapshot 2 taken. Total2: 13916144, Idle2: 13860139
+2026-07-17 16:31:05 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:31:05 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:31:05 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:31:05 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:31:08 [INFO] Snapshot 1 taken. Total1: 13918940, Idle1: 13862866
+2026-07-17 16:30:51 [INFO] Snapshot 2 taken. Total2: 13919740, Idle2: 13863656
+2026-07-17 16:30:51 [INFO] CPU Usage calculated successfully: 1%
+2026-07-17 16:30:51 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:51 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:51 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:54 [INFO] Snapshot 1 taken. Total1: 13922469, Idle1: 13866328
+2026-07-17 16:30:55 [INFO] Snapshot 2 taken. Total2: 13923287, Idle2: 13867130
+2026-07-17 16:30:55 [INFO] CPU Usage calculated successfully: 1%
+2026-07-17 16:30:55 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:30:55 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:30:55 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:30:59 [INFO] Snapshot 1 taken. Total1: 13926044, Idle1: 13869825
+2026-07-17 16:31:00 [INFO] Snapshot 2 taken. Total2: 13926859, Idle2: 13870637
+2026-07-17 16:31:00 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:31:18 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:31:18 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:31:00 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:31:03 [INFO] Snapshot 1 taken. Total1: 13929613, Idle1: 13873321
+2026-07-17 16:31:04 [INFO] Snapshot 2 taken. Total2: 13930442, Idle2: 13874142
+2026-07-17 16:31:04 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:31:04 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:31:04 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:31:05 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:31:08 [INFO] Snapshot 1 taken. Total1: 13933227, Idle1: 13876850
+2026-07-17 16:31:09 [INFO] Snapshot 2 taken. Total2: 13934052, Idle2: 13877670
+2026-07-17 16:31:09 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:31:09 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:31:09 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:31:09 [INFO] Analysis complete. System Status: WARNING
+2026-07-17 16:31:12 [INFO] Snapshot 1 taken. Total1: 13936863, Idle1: 13880398
+2026-07-17 16:31:13 [INFO] Snapshot 2 taken. Total2: 13937682, Idle2: 13881213
+2026-07-17 16:31:13 [INFO] CPU Usage calculated successfully: 0%
+2026-07-17 16:31:13 [INFO] RAM Usage calculated successfully: 6%
+2026-07-17 16:31:13 [INFO] Disk Usage calculated successfully: 1%
+2026-07-17 16:31:14 [INFO] Analysis complete. System Status: WARNING

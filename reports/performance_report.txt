@@ -1,0 +1,15 @@
+====================================================
+📊       SYSTEM PERFORMANCE METRICS REPORT          
+====================================================
+📅 Generated At : 2026-07-17 02:09:32
+📁 Source Data  : metrics.csv
+====================================================
+📈 AVERAGES OVER TIME:
+   • Average CPU Usage : 0.00%
+   • Average RAM Usage : 6.00%
+----------------------------------------------------
+🔥 PEAK UTILIZATION (MAX VALUES REACHED):
+   • Peak CPU Usage    : 0.00%
+   • Peak RAM Usage    : 6.00%
+   • Peak Disk Usage   : 1.00%
+====================================================
