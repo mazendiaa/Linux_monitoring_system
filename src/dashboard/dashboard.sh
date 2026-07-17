@@ -191,6 +191,7 @@ display_dashboard() {
 clear
 
 while true; do
+    clear
     # [Task 113] فحص سريع لمساحة القرص قبل تحديث الشاشة
     DISK_FULL_CHECK=$(df -P / | awk 'NR==2 {print $5}' | tr -d '%')
     if [ "$DISK_FULL_CHECK" -ge 98 ]; then
