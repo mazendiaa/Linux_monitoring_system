@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# [Task 97] دالة جلب وتحويل الـ Uptime
+#  دالة جلب وتحويل الـ Uptime
 get_system_uptime() {
     if [ -f "/proc/uptime" ]; then
         local total_seconds
@@ -22,7 +22,7 @@ get_system_uptime() {
     fi
 }
 
-# [Task 98] دالة جلب وتنسيق الـ Load Average
+#  دالة جلب وتنسيق الـ Load Average
 get_load_average() {
     if [ -f "/proc/loadavg" ]; then
         local load_1m load_5m load_15m
@@ -33,9 +33,7 @@ get_load_average() {
     fi
 }
 
-# ====================================================
-# [Task 99 & 100] دالة جلب إحصائيات الشبكة (RX / TX)
-# ====================================================
+#  دالة جلب إحصائيات الشبكة (RX / TX)
 get_network_stats() {
     local dev_file="/proc/net/dev"
     if [ -f "$dev_file" ]; then

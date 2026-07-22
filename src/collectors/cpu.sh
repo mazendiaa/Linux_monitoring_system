@@ -10,21 +10,21 @@ else
 fi
 
 collect_cpu_usage() {
-    # [Task 30] اللقطة الأولى
+    #  اللقطة الأولى
     read -r _ user1 nice1 system1 idle1 _ < <(grep '^cpu ' /proc/stat)
     total1=$((user1 + nice1 + system1 + idle1))
     log_info "Snapshot 1 taken. Total1: $total1, Idle1: $idle1"
 
-    # [Task 31] الانتظار (ثانيتين)
+    #  الانتظار (ثانيتين)
     sleep_time=${REFRESH_INTERVAL:-1} 
     sleep "$sleep_time"
 
-    # [Task 32] اللقطة الثانية
+    #  اللقطة الثانية
     read -r _ user2 nice2 system2 idle2 _ < <(grep '^cpu ' /proc/stat)
     total2=$((user2 + nice2 + system2 + idle2))
     log_info "Snapshot 2 taken. Total2: $total2, Idle2: $idle2"
     
-    # [Task 33] حساب الفرق
+    #  حساب الفرق
     diff_total=$((total2 - total1))
     diff_idle=$((idle2 - idle1))
 
@@ -34,15 +34,12 @@ collect_cpu_usage() {
         return
     fi
 
-    # [Task 34] حساب النسبة
+    #  حساب النسبة
     cpu_usage=$(( (diff_total - diff_idle) * 100 / diff_total ))
     log_info "CPU Usage calculated successfully: $cpu_usage%"
 
-    # ==========================================
-    # [Task 35] إرجاع القيمة فقط
-    # ==========================================
+    #  إرجاع القيمة فقط
     echo "$cpu_usage"
 }
 
-# تشغيل الفانكشن (الآن هتطبع الرقم الصافي فقط في التيرمنال)
 collect_cpu_usage

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# دالة لجلب وتنسيق العمليات المستهلكة للـ CPU (Task 93)
+# دالة لجلب وتنسيق العمليات المستهلكة للـ CPU 
 get_top_cpu_processes() {
     echo -e "PID     %CPU    COMMAND"
     # جلب العمليات وترتيبها تنازلياً، مع تخطي سطر الهيدر الخاص بـ ps وعرض أول 5 عمليات فقط
@@ -8,7 +8,7 @@ get_top_cpu_processes() {
     ps -eo pid,%cpu,cmd --sort=-%cpu | awk 'NR>1 && NR<=6 {print $1 "     " $2 "%    " $3}'
 }
 
-# دالة لجلب وتنسيق العمليات المستهلكة للـ RAM (Task 94)
+# دالة لجلب وتنسيق العمليات المستهلكة للـ RAM
 get_top_ram_processes() {
     echo -e "PID     %MEM    COMMAND"
     # جلب العمليات وترتيبها تنازلياً، مع تخطي سطر الهيدر الخاص بـ ps وعرض أول 5 عمليات فقط
@@ -16,7 +16,6 @@ get_top_ram_processes() {
     ps -eo pid,%mem,cmd --sort=-%mem | awk 'NR>1 && NR<=6 {print $1 "     " $2 "%    " $3}'
 }
 
-# [Task 95] عرض وتنسيق النتائج للاختبار
 show_analysis() {
     echo "==========================================="
     echo "🔥 TOP 5 CPU CONSUMING PROCESSES:"
@@ -29,5 +28,4 @@ show_analysis() {
     echo "==========================================="
 }
 
-# تشغيل العرض التجريبي
 show_analysis

@@ -12,7 +12,6 @@ else
     log_warning() { echo "[WARNING] $*"; }
 fi
 
-# تحميل الإعدادات
 CPU_THRESHOLD=90
 RAM_THRESHOLD=80
 DISK_THRESHOLD=85
@@ -22,10 +21,7 @@ if [ -f "$CONFIG_FILE" ]; then
      source "$CONFIG_FILE"
 fi
 
-# ====================================================
-# [Task 90] تعريف متغيرات لتخزين وقت آخر تنبيه لكل مورد (Epoch Time)
-# فترات التبريد بالثواني (مثلاً 60 ثانية)
-# ====================================================
+#  تعريف متغيرات لتخزين وقت آخر تنبيه لكل مورد (Epoch Time)
 COOLDOWN_PERIOD=60
 
 LAST_CPU_ALERT_TIME=0
@@ -38,7 +34,7 @@ send_alert() {
     local value=$2
     local level=$3
     local current_time
-    current_time=$(date +%s) # الوقت الحالي بالثواني
+    current_time=$(date +%s) 
 
     # تحديد وقت آخر تنبيه بناءً على المورد
     local last_alert_time
@@ -66,7 +62,7 @@ send_alert() {
         return 0
     fi
 
-    # إذا تخطى فترة التبريد، قم بتحديث وقت التنبيه الأخير واكتب في الـ Log فوراً
+    # إذا تخطى فترة التبريد، قم بتحديث وقت التنبيه الأخير واكتب في الـ Log 
     if [ "$resource" == "CPU" ]; then
         LAST_CPU_ALERT_TIME=$current_time
     elif [ "$resource" == "RAM" ]; then
@@ -75,7 +71,7 @@ send_alert() {
         LAST_DISK_ALERT_TIME=$current_time
     fi
 
-    # توثيق رسمي في الـ Log
+    # توثيق في الـ Log
     local alert_msg
     alert_msg="⚠️ ALERT! $resource utilization is $level: current value is $value%"
     if [ "$level" == "CRITICAL" ]; then

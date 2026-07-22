@@ -528,3 +528,9 @@
 2026-07-17 16:31:13 [INFO] RAM Usage calculated successfully: 6%
 2026-07-17 16:31:13 [INFO] Disk Usage calculated successfully: 1%
 2026-07-17 16:31:14 [INFO] Analysis complete. System Status: WARNING
+2026-07-22 18:40:20 [INFO] Snapshot 1 taken. Total1: 1021358, Idle1: 1006274
+2026-07-22 18:40:21 [INFO] Snapshot 2 taken. Total2: 1022172, Idle2: 1007086
+2026-07-22 18:40:21 [INFO] CPU Usage calculated successfully: 0%
+2026-07-22 18:40:21 [INFO] RAM Usage calculated successfully: 6%
+2026-07-22 18:40:21 [INFO] Disk Usage calculated successfully: 1%
+2026-07-22 18:40:22 [INFO] Analysis complete. System Status: WARNING

@@ -7,7 +7,7 @@ PROCESS_SCRIPT="$SCRIPT_DIR/../analyzers/process_analyzer.sh"
 ADVANCED_SCRIPT="$SCRIPT_DIR/../collectors/advanced_metrics.sh"
 #CSV_FILE="$SCRIPT_DIR/../../data/metrics.csv"
 
-# [Task 109] حماية وتحميل ملف الإعدادات بقيم افتراضية صارمة في حال غيابه
+# حماية وتحميل ملف الإعدادات بقيم افتراضية صارمة في حال غيابه
 REFRESH_INTERVAL=2
 # CPU_THRESHOLD=90
 # RAM_THRESHOLD=80
@@ -25,7 +25,7 @@ else
     fi
 fi
 
-# [Task 109] التحقق الآمن من وجود سكريبتات المكونات الأخرى قبل عمل source
+# التحقق الآمن من وجود سكريبتات المكونات الأخرى قبل عمل source
 
 # shellcheck disable=SC1090,SC1091
 if [ -f "$ALERTS_SCRIPT" ]; then
@@ -49,7 +49,7 @@ RED='\033[0;31m'
 CYAN='\033[0;36m'
 NC='\033[0m'
 
-# دالة رسم شريط التحميل البصري مع حماية ضد القيم غير الرقمية أو الفارغة (Task 110)
+# دالة رسم شريط التحميل البصري مع حماية ضد القيم غير الرقمية أو الفارغة 
 draw_progress_bar() {
     local val=$1
     # حماية: لو القيمة فارغة أو ليست رقماً، نعتبرها صفر
@@ -94,7 +94,7 @@ draw_header() {
 display_dashboard() {
     draw_header
 
-    # [Task 109] جلب القيم الحقيقية مع التأكد الآمن من وجود السكريبتات
+    # جلب القيم الحقيقية مع التأكد الآمن من وجود السكريبتات
     local cpu_usage=0
     local ram_usage=0
     local disk_usage=0
@@ -111,14 +111,14 @@ display_dashboard() {
 
     draw_header
 
-    # 1. عرض الموارد الرئيسية
+    #  عرض الموارد الرئيسية
     echo -e "    📊 SYSTEM METRICS:"
     echo -e "       CPU Usage  : $(draw_progress_bar "$cpu_usage")"
     echo -e "       RAM Usage  : $(draw_progress_bar "$ram_usage")"
     echo -e "       Disk Usage : $(draw_progress_bar "$disk_usage")"
     echo -e "${CYAN}====================================================${NC}"
 
-    # 2. عرض المقاييس المتقدمة
+    #  عرض المقاييس المتقدمة
     local load_val="N/A"
     local net_val="N/A"
     if declare -f get_load_average > /dev/null; then load_val=$(get_load_average); fi
@@ -138,7 +138,7 @@ display_dashboard() {
     fi
     echo -e "${CYAN}====================================================${NC}"
 
-    # 3. عرض العمليات الأكثر استهلاكاً مع التحقق من وجود الدوال
+    #  عرض العمليات الأكثر استهلاكاً مع التحقق من وجود الدوال
     echo -e "    🔥 TOP CPU PROCESSES:             💾 TOP RAM PROCESSES:"
     echo -e "    ---------------------             ---------------------"
     
@@ -156,7 +156,7 @@ display_dashboard() {
     fi
     echo -e "${CYAN}====================================================${NC}"
 
-    # 4. تحليل الحالة العامة
+    #  تحليل الحالة العامة
     if [ -f "$SCRIPT_DIR/../analyzers/analyzer.sh" ]; then
         local raw_status
         raw_status=$(bash "$SCRIPT_DIR/../analyzers/analyzer.sh" "$cpu_usage" "$ram_usage" "$disk_usage" 2>/dev/null | grep "SYSTEM STATUS")
@@ -176,7 +176,7 @@ display_dashboard() {
     fi
     echo -e "${CYAN}====================================================${NC}"
 
-    # 5. التنبيهات الحية
+    #  التنبيهات الحية
     echo -e "📢 Live Alerts Area:"
     if declare -f check_resource_limits > /dev/null; then
         check_resource_limits "$cpu_usage" "$ram_usage" "$disk_usage"
@@ -186,13 +186,11 @@ display_dashboard() {
     echo -e "${CYAN}====================================================${NC}"
 }
 
-# تهيئة التيرمنال
-# تهيئة التيرمنال
 clear
 
 while true; do
     clear
-    # [Task 113] فحص سريع لمساحة القرص قبل تحديث الشاشة
+    # فحص سريع لمساحة القرص قبل تحديث الشاشة
     DISK_FULL_CHECK=$(df -P / | awk 'NR==2 {print $5}' | tr -d '%')
     if [ "$DISK_FULL_CHECK" -ge 98 ]; then
         clear

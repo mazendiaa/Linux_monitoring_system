@@ -7,9 +7,9 @@ LOG_FILE="$LOG_DIR/app.log"
 # إنشاء مجلد الـ Logs لو مش موجود
 mkdir -p "$LOG_DIR"
 
-# [Task 112 & 113] دالة التحقق الآمن قبل الكتابة (صلاحيات + مساحة القرص)
+# دالة التحقق الآمن قبل الكتابة (صلاحيات + مساحة القرص)
 safe_to_write() {
-    # 1. التحقق من المساحة المتاحة على القرص
+    # التحقق من المساحة المتاحة على القرص
     local disk_usage
     disk_usage=$(df -P "$LOG_DIR" | awk 'NR==2 {print $5}' | tr -d '%')
     
@@ -19,7 +19,7 @@ safe_to_write() {
         return 1
     fi
 
-    # 2. التحقق من صلاحية الكتابة للملف (لو موجود) أو المجلد
+    # التحقق من صلاحية الكتابة للملف (لو موجود) أو المجلد
     if [ -f "$LOG_FILE" ]; then
         if [ ! -w "$LOG_FILE" ]; then
             echo "[EMERGENCY] Log file is not writable!" >&2

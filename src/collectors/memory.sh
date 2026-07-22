@@ -11,11 +11,11 @@ else
 fi
 
 collect_ram_usage() {
-    # 1. قراءة السطور الخام
+    #  قراءة السطور الخام
     mem_total_raw=$(grep '^MemTotal:' /proc/meminfo)
     mem_avail_raw=$(grep '^MemAvailable:' /proc/meminfo)
 
-    # 2. استخراج الأرقام الصافية
+    #  استخراج الأرقام الصافية
     mem_total=$(echo "$mem_total_raw" | awk '{print $2}')
     mem_available=$(echo "$mem_avail_raw" | awk '{print $2}')
 
@@ -25,18 +25,15 @@ collect_ram_usage() {
         return
     fi
 
-    # 3. الحسابات والنسبة المئوية
+    #  الحسابات والنسبة المئوية
     mem_used=$((mem_total - mem_available))
     ram_usage=$((mem_used * 100 / mem_total))
 
-    # 4. تسجيل النتيجة النهائية في الـ Log
+    #  تسجيل النتيجة النهائية في الـ Log
     log_info "RAM Usage calculated successfully: $ram_usage%"
 
-    # ==========================================
-    # [Task 45 & 46] إرجاع القيمة الصافية فقط
-    # ==========================================
+    # إرجاع القيمة الصافية فقط
     echo "$ram_usage"
 }
 
-# تشغيل الفانكشن لتجربتها في التيرمنال
 collect_ram_usage

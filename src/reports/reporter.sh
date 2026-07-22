@@ -44,7 +44,7 @@ calculate_peaks() {
     }' "$CSV_FILE"
 }
 
-# [Task 108] دالة توليد وتصدير التقرير
+#  دالة توليد وتصدير التقرير
 generate_report() {
     IFS='|' read -r avg_cpu avg_ram < <(calculate_averages)
     IFS='|' read -r peak_cpu peak_ram peak_disk < <(calculate_peaks)

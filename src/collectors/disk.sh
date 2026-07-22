@@ -11,10 +11,10 @@ else
 fi
 
 collect_disk_usage() {
-    # 1. جلب السطر الخام (Task 48)
+    # 1. جلب السطر الخام من الأمر df 
     disk_raw=$(df -P / | tail -n 1)
 
-    # 2. استخراج نسبة الاستهلاك (Task 49)
+    # 2. استخراج نسبة الاستهلاك 
     disk_usage=$(echo "$disk_raw" | awk '{print $5}' | tr -d '%')
 
     # حماية من القيم الفارغة
@@ -23,12 +23,11 @@ collect_disk_usage() {
         return
     fi
 
-    # 3. تسجيل النتيجة في الـ Log (Task 52)
+    # 3. تسجيل النتيجة في الـ Log 
     log_info "Disk Usage calculated successfully: $disk_usage%"
 
-    # 4. إرجاع القيمة الصافية فقط (Task 53)
+    # 4. إرجاع القيمة الصافية فقط 
     echo "$disk_usage"
 }
 
-# تشغيل الفانكشن
 collect_disk_usage  

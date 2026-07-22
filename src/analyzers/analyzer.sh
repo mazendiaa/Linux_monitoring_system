@@ -10,7 +10,7 @@ else
     log_info() { echo "[INFO] $*"; }
 fi
 
-# 1. فحص الـ CPU
+# فحص الـ CPU
 analyze_cpu() {
     local cpu_val
     cpu_val=$1
@@ -18,7 +18,7 @@ analyze_cpu() {
     if [ "$cpu_val" -gt 90 ]; then echo "CRITICAL"; elif [ "$cpu_val" -gt 70 ]; then echo "WARNING"; else echo "OK"; fi
 }
 
-# 2. فحص الـ RAM
+# فحص الـ RAM
 analyze_ram() {
     local ram_val
     ram_val=$1
@@ -26,7 +26,7 @@ analyze_ram() {
     if [ "$ram_val" -gt 90 ]; then echo "CRITICAL"; elif [ "$ram_val" -gt 80 ]; then echo "WARNING"; else echo "OK"; fi
 }
 
-# 3. فحص الـ Disk
+# فحص الـ Disk
 analyze_disk() {
     local disk_val
     disk_val=$1
@@ -34,7 +34,7 @@ analyze_disk() {
     if [ "$disk_val" -gt 95 ]; then echo "CRITICAL"; elif [ "$disk_val" -gt 85 ]; then echo "WARNING"; else echo "OK"; fi
 }
 
-# [Task 66 & 67] محرك الحالة العام واختباره بالقيم الممررة
+#  محرك الحالة العام واختباره بالقيم الممررة
 analyze_metrics() {
     local cpu
     cpu=$1
@@ -76,6 +76,4 @@ analyze_metrics() {
     log_info "Analysis complete. System Status: $system_status"
 }
 
-# تشغيل الفانكشن مع تمرير قيم اختبارية كـ Arguments (مثلاً: CPU 20, RAM 85, Disk 40)
-# الـ RAM هنا 85 يعني Warning، فالمفروض السيستم كله يقلب Warning
 analyze_metrics 20 85 40
