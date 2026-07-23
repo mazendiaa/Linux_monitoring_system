@@ -15,7 +15,6 @@ collect_cpu_usage() {
     total1=$((user1 + nice1 + system1 + idle1))
     log_info "Snapshot 1 taken. Total1: $total1, Idle1: $idle1"
 
-    #  الانتظار (ثانيتين)
     sleep_time=${REFRESH_INTERVAL:-1} 
     sleep "$sleep_time"
 

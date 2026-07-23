@@ -76,4 +76,6 @@ analyze_metrics() {
     log_info "Analysis complete. System Status: $system_status"
 }
 
-analyze_metrics 20 85 40
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    analyze_metrics "$@"
+fi

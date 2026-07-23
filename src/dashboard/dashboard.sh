@@ -92,7 +92,7 @@ draw_header() {
 }
 
 display_dashboard() {
-    draw_header
+    # draw_header
 
     # جلب القيم الحقيقية مع التأكد الآمن من وجود السكريبتات
     local cpu_usage=0
@@ -101,6 +101,7 @@ display_dashboard() {
 
     if [ -f "$SCRIPT_DIR/../collectors/cpu.sh" ]; then
         cpu_usage=$(bash "$SCRIPT_DIR/../collectors/cpu.sh")
+        echo "CPU = [$cpu_usage]"
     fi
     if [ -f "$SCRIPT_DIR/../collectors/memory.sh" ]; then
         ram_usage=$(bash "$SCRIPT_DIR/../collectors/memory.sh")
@@ -138,9 +139,8 @@ display_dashboard() {
     fi
     echo -e "${CYAN}====================================================${NC}"
 
-    #  عرض العمليات الأكثر استهلاكاً مع التحقق من وجود الدوال
-    echo -e "    🔥 TOP CPU PROCESSES:             💾 TOP RAM PROCESSES:"
-    echo -e "    ---------------------             ---------------------"
+    printf "    %-40s    %-40s\n" "🔥 TOP CPU PROCESSES:" "  TOP RAM PROCESSES:"
+    printf "    %-40s    %-40s\n" "---------------------" "---------------------"
     
     if declare -f get_top_cpu_processes > /dev/null && declare -f get_top_ram_processes > /dev/null; then
         mapfile -t cpu_procs < <(get_top_cpu_processes 2>/dev/null | head -n 3)
@@ -149,7 +149,7 @@ display_dashboard() {
         for i in {0..2}; do
             local cpu_line="${cpu_procs[$i]:-}"
             local ram_line="${ram_procs[$i]:-}"
-            printf "    %-30s    %-30s\n" "$cpu_line" "$ram_line"
+            printf "    %-40.40s    %-40.40s\n" "$cpu_line" "$ram_line"
         done
     else
         echo -e "    ⚠️  ${RED}Process Analyzer functions not loaded!${NC}"
