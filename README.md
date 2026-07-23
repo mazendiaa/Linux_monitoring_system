@@ -10,11 +10,12 @@ The project provides a live terminal dashboard, configurable resource alerts, hi
 
 ### Live Dashboard
 
-![Dashboard](docs/dashboard_snapshot.png)
+![Dashboard](docs/normal case screen.png)
+![Dashboard](docs/stress Screen dashboard.png)
 
 ### Demo
 
-![Demo](docs/demo_GIF.gif)
+![Demo](docs/dashboard record.gif)
 
 ---
 
