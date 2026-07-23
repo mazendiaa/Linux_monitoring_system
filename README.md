@@ -8,14 +8,16 @@ The project provides a live terminal dashboard, configurable resource alerts, hi
 
 ## Preview
 
-### Live Dashboard
+### Normal case Live Dashboard
 
 ![Dashboard](./docs/normal%20case%20screen.png)
-![Dashboard](docs/stress Screen dashboard.png)
+
+### stress command case Live Dashboard
+![Dashboard](./docs/stress%20Screen%20dashboard.png)
 
 ### Demo
 
-![Demo](docs/dashboard record.gif)
+![Demo](./docs/dashboard%20record.gif)
 
 ---
 
