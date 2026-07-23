@@ -10,14 +10,14 @@ The project provides a live terminal dashboard, configurable resource alerts, hi
 
 ### Normal case Live Dashboard
 
-![Dashboard](./docs/normal%20case%20screen.png)
+![Terminal dashboard displaying CPU memory disk usage network traffic and load averages with colored bars and status panels](./docs/normal%20case%20screen.png)
 
 ### stress command case Live Dashboard
-![Dashboard](./docs/stress%20Screen%20dashboard.png)
+![Terminal dashboard during stress test showing elevated CPU and memory usage warnings and system metrics in colored blocks](./docs/stress%20Screen%20dashboard.png)
 
 ### Demo
 
-![Demo](./docs/dashboard%20record.gif)
+![Animated walkthrough of the monitoring dashboard updating system metrics in the terminal with changing charts and alerts](./docs/dashboard%20record.gif)
 
 ---
 
