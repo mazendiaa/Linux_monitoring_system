@@ -1,7 +1,6 @@
 #!/bin/bash
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-CONFIG_FILE="$SCRIPT_DIR/../../config/config.conf"
 
 # استدعاء الـ Logger
 if [ -f "$SCRIPT_DIR/../utils/logger.sh" ]; then
@@ -11,14 +10,19 @@ else
     log_error() { echo "[ERROR] $*"; }
     log_warning() { echo "[WARNING] $*"; }
 fi
+CONFIG_LOADER="$SCRIPT_DIR/../utils/config_loader.sh"
 
-CPU_THRESHOLD=90
-RAM_THRESHOLD=80
-DISK_THRESHOLD=85
+if [ -f "$CONFIG_LOADER" ]; then
+    # shellcheck disable=SC1090
+    source "$CONFIG_LOADER"
 
-if [ -f "$CONFIG_FILE" ]; then
-   # shellcheck disable=SC1090
-     source "$CONFIG_FILE"
+    if ! load_config; then
+        echo "[ERROR] Failed to load configuration." >&2
+        return 1
+    fi
+else
+    echo "[ERROR] Config loader not found at $CONFIG_LOADER" >&2
+    return 1
 fi
 
 #  تعريف متغيرات لتخزين وقت آخر تنبيه لكل مورد (Epoch Time)
