@@ -12,13 +12,19 @@ load_config() {
     # shellcheck disable=SC1090
     source "$CONFIG_FILE"
 
+    # Defaults for optional email configuration
+    EMAIL_NOTIFICATIONS_ENABLED="${EMAIL_NOTIFICATIONS_ENABLED:-false}"
+    EMAIL_RECIPIENT="${EMAIL_RECIPIENT:-}"
+    EMAIL_FROM="${EMAIL_FROM:-}"
+
     if [ -z "${CPU_THRESHOLD:-}" ] ||
        [ -z "${RAM_THRESHOLD:-}" ] ||
        [ -z "${DISK_THRESHOLD:-}" ] ||
        [ -z "${REFRESH_INTERVAL:-}" ]; then
-        echo "[ERROR] One or more configuration variables are missing in $CONFIG_FILE" >&2
+        echo "[ERROR] One or more required configuration variables are missing in $CONFIG_FILE" >&2
         return 1
     fi
 
     return 0
 }
+
