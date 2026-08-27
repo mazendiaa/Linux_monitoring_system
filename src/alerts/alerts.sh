@@ -1,7 +1,6 @@
 #!/bin/bash
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-CONFIG_FILE="$SCRIPT_DIR/../../config/config.conf"
 
 # استدعاء الـ Logger
 if [ -f "$SCRIPT_DIR/../utils/logger.sh" ]; then
@@ -11,14 +10,27 @@ else
     log_error() { echo "[ERROR] $*"; }
     log_warning() { echo "[WARNING] $*"; }
 fi
+CONFIG_LOADER="$SCRIPT_DIR/../utils/config_loader.sh"
+EMAIL_SCRIPT="$SCRIPT_DIR/../notifications/email.sh"
 
-CPU_THRESHOLD=90
-RAM_THRESHOLD=80
-DISK_THRESHOLD=85
+if [ -f "$CONFIG_LOADER" ]; then
+    # shellcheck disable=SC1090
+    source "$CONFIG_LOADER"
+    if ! load_config >/dev/null; then
+        echo "[ERROR] Failed to load configuration." >&2
+        return 1
+    fi
+else
+    echo "[ERROR] Config loader not found at $CONFIG_LOADER" >&2
+    return 1
+fi
 
-if [ -f "$CONFIG_FILE" ]; then
-   # shellcheck disable=SC1090
-     source "$CONFIG_FILE"
+if [ -f "$EMAIL_SCRIPT" ]; then
+    # shellcheck disable=SC1090
+    source "$EMAIL_SCRIPT"
+else
+    echo "[WARNING] Email notification module not found. Email notifications disabled." >&2
+    send_email_alert() { return 0; }
 fi
 
 #  تعريف متغيرات لتخزين وقت آخر تنبيه لكل مورد (Epoch Time)
@@ -80,6 +92,11 @@ send_alert() {
     else
         log_warning "$alert_msg"
         echo -e "\033[0;33m[ALERT ENGINE - NEW LOGGED ALERT] $alert_msg\033[0m"
+    fi
+
+    # Email notification must never stop the monitoring engine.
+    if ! send_email_alert "$resource" "$value" "$level"; then
+        log_warning "Email notification failed for $resource ($level, ${value}%)."
     fi
 }
 
