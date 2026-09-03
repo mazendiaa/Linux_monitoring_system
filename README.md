@@ -79,6 +79,7 @@ linux_monitoring_system/
 │
 ├── .gitignore
 └── main.sh
+
 ```
 
 ---
@@ -115,6 +116,7 @@ Application settings are stored in:
 
 ```text
 config/config.conf
+
 ```
 
 Current configuration options include:
@@ -126,33 +128,38 @@ DISK_THRESHOLD=90
 REFRESH_INTERVAL=3
 
 EMAIL_NOTIFICATIONS_ENABLED=false
-EMAIL_RECIPIENT=""
-EMAIL_FROM=""
+EMAIL_RECIPIENT="your email"
+EMAIL_FROM="onboarding@resend.dev"
+
 ```
 
-### Email Notifications
+### Email Notifications & Security
 
 Email notifications are **disabled by default**.
 
-To enable them:
+To enable them, set the required variables in your environment or configuration file:
 
 ```bash
-EMAIL_NOTIFICATIONS_ENABLED=true
-EMAIL_RECIPIENT="your-email@gmail.com"
-EMAIL_FROM="your-verified-sender@yourdomain.com"
+export EMAIL_NOTIFICATIONS_ENABLED="true"
+export EMAIL_RECIPIENT=""
+export EMAIL_FROM=""
+
 ```
 
-The Resend API key must **not** be stored in `config/config.conf` or committed to Git.
+#### API Key Protection
 
-Set it as an environment variable instead:
+The Resend API key must **NEVER** be stored in `config/config.conf` or committed to Git version control. Sensitive files like `.env` and local configuration files containing credentials are excluded via `.gitignore`.
+
+Set your API key securely as an environment variable:
 
 ```bash
-export RESEND_API_KEY="your_api_key"
+export RESEND_API_KEY="re_your_actual_api_key_here"
+
 ```
 
-The email notification module uses the Resend API through `curl`.
+The email notification module interacts directly with the Resend REST API via `curl` and safely encodes payloads using `perl`.
 
-> For development/testing, Resend's test sender can be used where supported. For production use, configure a verified sending domain in Resend.
+> For development/testing, Resend's default sender (`onboarding@resend.dev`) can be used. For production use, configure a verified sending domain in Resend.
 
 ---
 
@@ -162,18 +169,21 @@ Runtime logs:
 
 ```text
 logs/app.log
+
 ```
 
 Historical metrics:
 
 ```text
 data/metrics.csv
+
 ```
 
 Generated reports:
 
 ```text
 reports/performance_report.txt
+
 ```
 
 ---
@@ -192,6 +202,7 @@ reports/performance_report.txt
 * tput
 * bc
 * curl
+* Perl (JSON generation)
 * ANSI escape sequences
 
 ---
@@ -201,26 +212,42 @@ reports/performance_report.txt
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/mazendiaa/Linux_monitoring_system.git
+git clone [https://github.com/mazendiaa/Linux_monitoring_system.git](https://github.com/mazendiaa/Linux_monitoring_system.git)
 cd Linux_monitoring_system
+
 ```
 
-## 2. Make the Main Script Executable
+## 2. Configure Environment Variables
+
+Export your secrets securely before launching:
+
+```bash
+export EMAIL_NOTIFICATIONS_ENABLED="true"
+export EMAIL_RECIPIENT="your-email@gmail.com"
+export EMAIL_FROM="onboarding@resend.dev"
+export RESEND_API_KEY="re_your_actual_api_key_here"
+
+```
+
+## 3. Make the Main Script Executable
 
 ```bash
 chmod +x main.sh
+
 ```
 
 If necessary, make the component scripts executable as well:
 
 ```bash
 find src -type f -name "*.sh" -exec chmod +x {} \;
+
 ```
 
-## 3. Run the Application
+## 4. Run the Application
 
 ```bash
 ./main.sh
+
 ```
 
 The monitoring dashboard will start in the terminal.
@@ -236,12 +263,14 @@ After configuring the required email settings and exporting your Resend API key,
 ```bash
 source src/notifications/email.sh
 send_email_alert "CPU" "95" "CRITICAL"
+
 ```
 
 A successful request should return:
 
 ```text
 [EMAIL] Alert sent successfully: CPU CRITICAL (95%)
+
 ```
 
 The monitoring engine continues running even if an email notification fails.
@@ -262,6 +291,7 @@ This project was built to practice:
 * Configuration management
 * Linux alerting and automation
 * API integration using Bash and curl
+* Secure handling of environment variables and secrets
 
 ---
 
@@ -280,3 +310,5 @@ This project was built to practice:
 **Mazen Diaa**
 
 Computer Science Student | Linux & DevOps Enthusiast
+
+```
