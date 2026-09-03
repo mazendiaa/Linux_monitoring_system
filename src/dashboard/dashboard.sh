@@ -1,29 +1,25 @@
 #!/bin/bash
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-CONFIG_FILE="$SCRIPT_DIR/../../config/config.conf"
-ALERTS_SCRIPT="$SCRIPT_DIR/../alerts/alerts.sh"
-PROCESS_SCRIPT="$SCRIPT_DIR/../analyzers/process_analyzer.sh"
-ADVANCED_SCRIPT="$SCRIPT_DIR/../collectors/advanced_metrics.sh"
+CONFIG_LOADER="$SCRIPT_DIR/../utils/config_loader.sh"
+ALERTS_SCRIPT="$SCRIPT_DIR/../alerts/alerts.sh" 
+PROCESS_SCRIPT="$SCRIPT_DIR/../analyzers/process_analyzer.sh" 
+ADVANCED_SCRIPT="$SCRIPT_DIR/../collectors/advanced_metrics.sh" 
 #CSV_FILE="$SCRIPT_DIR/../../data/metrics.csv"
 
-# حماية وتحميل ملف الإعدادات بقيم افتراضية صارمة في حال غيابه
-REFRESH_INTERVAL=2
-# CPU_THRESHOLD=90
-# RAM_THRESHOLD=80
-# DISK_THRESHOLD=85
-
-if [ -f "$CONFIG_FILE" ]; then
+if [ -f "$CONFIG_LOADER" ]; then
     # shellcheck disable=SC1090
-    source "$CONFIG_FILE"
-else
-    # لو الملف مش موجود، بنكتب تحذير في الـ Log ونكمل بالقيم الافتراضية
-    if [ -f "$SCRIPT_DIR/../utils/logger.sh" ]; then
-        # shellcheck disable=SC1091
-        source "$SCRIPT_DIR/../utils/logger.sh"
-        log_warning "Config file missing at $CONFIG_FILE. Using safe defaults."
+    source "$CONFIG_LOADER"
+
+    if ! load_config; then
+        echo "[ERROR] Failed to load configuration." >&2
+        exit 1
     fi
+else
+    echo "[ERROR] Config loader not found at $CONFIG_LOADER" >&2
+    exit 1
 fi
+
 
 # التحقق الآمن من وجود سكريبتات المكونات الأخرى قبل عمل source
 
